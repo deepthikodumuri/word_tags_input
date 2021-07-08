@@ -54,9 +54,7 @@ class App extends React.Component {
     if (chipToDelete.includes(input)) {
       filtered.push(chipToDelete);
     }
-    else {
       database.push(chipToDelete);
-    }
     this.setState({ selected, database, filtered });
   };
 
